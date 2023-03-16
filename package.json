@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "jest": "^29.5.0"
+  },
+  "name": "wordle",
+  "version": "1.0.0",
+  "description": "wordle algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3xer/wordle.git"
+  },
+  "type": "module",
+  "author": "Pontus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3xer/wordle/issues"
+  },
+  "homepage": "https://github.com/3xer/wordle#readme"
+}
